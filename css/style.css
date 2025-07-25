@@ -168,6 +168,17 @@ section {
     background-color: var(--secondary-color);
     transition: var(--transition);
 }
+/* Default (white color on homepage) */
+.hamburger, .hamburger::before, .hamburger::after {
+    background-color: white;
+}
+
+/* Black hamburger when scrolled */
+.hamburger.scrolled,
+.hamburger.scrolled::before,
+.hamburger.scrolled::after {
+    background-color: black;
+}
 
 .hamburger::before {
     top: -8px;
