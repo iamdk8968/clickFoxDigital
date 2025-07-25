@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="#F26522" opacity="0.1" />
+  
+  <!-- Creative Icon -->
+  <g transform="translate(20, 20)">
+    <!-- Light bulb -->
+    <path d="M30,5 C17,5 10,15 10,25 C10,35 20,40 20,45 L40,45 C40,40 50,35 50,25 C50,15 43,5 30,5 Z" fill="#F26522" opacity="0.8" />
+    
+    <!-- Light bulb base -->
+    <rect x="20" y="45" width="20" height="5" fill="#000000" />
+    <rect x="22" y="50" width="16" height="5" fill="#000000" />
+    
+    <!-- Light rays -->
+    <line x1="30" y1="0" x2="30" y2="5" stroke="#F26522" stroke-width="2" />
+    <line x1="15" y1="10" x2="10" y2="5" stroke="#F26522" stroke-width="2" />
+    <line x1="45" y1="10" x2="50" y2="5" stroke="#F26522" stroke-width="2" />
+    <line x1="5" y1="25" x2="10" y2="25" stroke="#F26522" stroke-width="2" />
+    <line x1="55" y1="25" x2="50" y2="25" stroke="#F26522" stroke-width="2" />
+    
+    <!-- Idea sparks -->
+    <circle cx="20" cy="15" r="2" fill="#F26522" />
+    <circle cx="40" cy="15" r="2" fill="#F26522" />
+    <circle cx="30" cy="10" r="2" fill="#F26522" />
+    
+    <!-- Creative swirls -->
+    <path d="M15,35 C20,30 25,40 30,35" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <path d="M30,35 C35,30 40,40 45,35" fill="none" stroke="#FFFFFF" stroke-width="2" />
+  </g>
+</svg>

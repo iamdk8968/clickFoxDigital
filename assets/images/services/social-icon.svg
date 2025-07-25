@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="#F26522" opacity="0.1" />
+  
+  <!-- Social Media Management Icon -->
+  <g transform="translate(20, 20)">
+    <!-- Network nodes -->
+    <circle cx="30" cy="30" r="10" fill="#F26522" />
+    <circle cx="10" cy="15" r="8" fill="#000000" />
+    <circle cx="50" cy="15" r="8" fill="#000000" />
+    <circle cx="10" cy="45" r="8" fill="#000000" />
+    <circle cx="50" cy="45" r="8" fill="#000000" />
+    
+    <!-- Connection lines -->
+    <line x1="30" y1="30" x2="10" y2="15" stroke="#000000" stroke-width="2" />
+    <line x1="30" y1="30" x2="50" y2="15" stroke="#000000" stroke-width="2" />
+    <line x1="30" y1="30" x2="10" y2="45" stroke="#000000" stroke-width="2" />
+    <line x1="30" y1="30" x2="50" y2="45" stroke="#000000" stroke-width="2" />
+    
+    <!-- Social icons -->
+    <text x="10" y="18" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle">f</text>
+    <text x="50" y="18" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle">in</text>
+    <text x="10" y="48" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle">t</text>
+    <text x="50" y="48" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle">ig</text>
+    
+    <!-- Central hub icon -->
+    <text x="30" y="33" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">@</text>
+    
+    <!-- Growth indicators -->
+    <path d="M55,25 L60,20 L60,25 L55,25" fill="#F26522" />
+    <path d="M55,35 L60,30 L60,35 L55,35" fill="#F26522" />
+    <path d="M0,35 L5,30 L5,35 L0,35" fill="#F26522" />
+    <path d="M0,25 L5,20 L5,25 L0,25" fill="#F26522" />
+  </g>
+</svg>

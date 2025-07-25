@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="#F26522" opacity="0.1" />
+  
+  <!-- Web Design & Development Icon -->
+  <g transform="translate(15, 15)">
+    <!-- Browser window -->
+    <rect x="5" y="5" width="60" height="45" rx="3" ry="3" fill="#FFFFFF" stroke="#000000" stroke-width="2" />
+    
+    <!-- Browser toolbar -->
+    <rect x="5" y="5" width="60" height="10" rx="3" ry="3" fill="#F26522" />
+    
+    <!-- Browser buttons -->
+    <circle cx="10" cy="10" r="2" fill="#FFFFFF" />
+    <circle cx="16" cy="10" r="2" fill="#FFFFFF" />
+    <circle cx="22" cy="10" r="2" fill="#FFFFFF" />
+    
+    <!-- Address bar -->
+    <rect x="28" y="7" width="32" height="6" rx="1" ry="1" fill="#FFFFFF" opacity="0.5" />
+    
+    <!-- Website layout -->
+    <rect x="10" y="20" width="50" height="8" fill="#000000" opacity="0.8" />
+    <rect x="10" y="32" width="20" height="12" fill="#F26522" opacity="0.8" />
+    <rect x="35" y="32" width="25" height="4" fill="#000000" opacity="0.5" />
+    <rect x="35" y="40" width="25" height="4" fill="#000000" opacity="0.5" />
+    
+    <!-- Code brackets -->
+    <text x="10" y="65" font-family="monospace" font-size="14" fill="#000000">&lt;/&gt;</text>
+    
+    <!-- Code lines -->
+    <line x1="30" y1="60" x2="50" y2="60" stroke="#000000" stroke-width="2" />
+    <line x1="30" y1="65" x2="45" y2="65" stroke="#000000" stroke-width="2" />
+    <line x1="30" y1="70" x2="55" y2="70" stroke="#F26522" stroke-width="2" />
+  </g>
+</svg>
