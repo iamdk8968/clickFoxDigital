@@ -121,6 +121,15 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
+    // color changing hamburger toggle
+     window.addEventListener('scroll', function () {
+    const hamburger = document.querySelector('.hamburger');
+    if (window.scrollY > 50) {
+      hamburger.classList.add('scrolled');
+    } else {
+      hamburger.classList.remove('scrolled');
+    }
+  });
 
     // Testimonial Slider
     const testimonialItems = document.querySelectorAll('.testimonial-item');
